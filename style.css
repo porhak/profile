@@ -1,0 +1,70 @@
+﻿html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+body {
+    overflow: hidden; /* Hide scrollbars */
+    font-family: sans-serif;
+    background-image: url(file:///C:/Users/HP/Downloads/1668461.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+main{
+    display: flex; 
+    flex-direction: column;
+    max-width: 300px;
+    margin: 50px auto;
+}
+.profile-pic {
+    border: 4px solid #A39FE1;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+*{
+    margin: 0;
+    padding: 0px;
+}
+.btn{
+    background-color: #A39FE1;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    color: #cfefff;
+    text-decoration: none;
+    text-align: center;
+
+}
+.box{
+    font-family: sans-serif;
+    background-color: #A39FE1;
+    padding: 10px 010px;
+    margin-bottom: 5px;
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
+    color: #cfefff;
+    width: 28ch;    
+    animation: typing 2s steps(50), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 15px;
+    max-width: 300px;
+    margin: 20px auto;
+}
+.btn:hover {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+@keyframes typing {
+    from{
+        width: 0;
+    }
+}
+@keyframes blink {  
+    50%{
+        border-color: transparent;
+    }
+}
